@@ -1,0 +1,13 @@
+[package]
+name = "reputation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git" }
+serde = { version = "1.0", features = ["derive"] }
+sha2 = "0.10"
+
+[[bin]]
+name = "reputation"
+path = "src/main.rs"
